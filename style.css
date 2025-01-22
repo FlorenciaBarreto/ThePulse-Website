@@ -1,4 +1,4 @@
-/* General styles */
+/*⚪⚪⚪⚪⚪  Estilo general ⚪⚪⚪⚪⚪ */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -21,7 +21,7 @@ section {
     margin: 0 auto;  /* Centrar la sección */
 }
 
-/* Header */
+/*⚪⚪⚪⚪⚪  Header ⚪⚪⚪⚪⚪ */
 header {
     display: flex;
     justify-content: space-between;
@@ -108,7 +108,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Section One */
+/*⚪⚪⚪⚪⚪  Section One ⚪⚪⚪⚪⚪ */
 .one {
     display: flex;
     align-items: center;    
@@ -130,7 +130,7 @@ nav ul li a {
 }
 
 .one-text .highlight {
-    color: #8880ff;
+    color: #7d52c4;
 }
 
 .one-buttons {
@@ -166,7 +166,7 @@ nav ul li a {
     height: auto;
 }
 
-/* Section Two */
+/*⚪⚪⚪⚪⚪  Section Two ⚪⚪⚪⚪⚪ */
 
 .two {
     background: #fff;
@@ -224,7 +224,6 @@ nav ul li a {
     font-weight: bold;
     font-size: 15px;
     color: #fff;
-    /* background-color: #000; */
     padding: 10px 10px;;
 }
 
@@ -251,3 +250,361 @@ nav ul li a {
     font-size: 50px;
     color: #4402dd;
 }
+
+/*⚪⚪⚪⚪⚪  Sección three ⚪⚪⚪⚪⚪ */
+.three{
+    display: flex;
+    align-items: center;    
+    padding: 30px 0;
+    max-width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.three div{
+    max-width: 50%;
+}
+
+/*texto resaltado*/
+.three-left .highlight{
+    color: #7d52c4;
+    font-weight: bold;
+}
+
+.three-left .highlight-thin{
+    color: #7d52c4;
+    
+}
+
+/*estilo de fuente*/
+.three-left p{
+    font-size: 20px;
+    padding: 10px 1px;
+    margin: 0;
+    max-width: 90%;
+}
+
+.three-left h2{
+    font-size: 35px;
+    line-height: 50px;
+    color: black;
+    font-weight: bolder;
+    margin-left: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+
+/* ⚪⚪⚪⚪⚪  Section Four ⚪⚪⚪⚪⚪ */
+.four {
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 85%;
+}
+
+/* Contenedor del título */
+.solutions-title {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+/* Estilo del título */
+.solutions-title h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+/* Estilo del subtítulo */
+.solutions-title h3 {
+    font-size: 32px;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.solutions-title .highlight {
+    color: #7d52c4;
+    font-weight: bold;
+}
+
+.solutions-title .highlight-thin {
+    font-weight: 300;
+    color: #7d52c4;    
+}
+
+/* Contenedor de las soluciones */
+.solutions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espacio entre tarjetas */
+    flex-wrap: nowrap; /* Asegura que queden en una fila */
+}
+
+/* Estilo de cada tarjeta de solución */
+.solution-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    padding: 20px 10px;
+    border-radius: 0;
+    width: 220px;
+    height: 220px;
+    text-align: center;
+}
+
+.solutions-title h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+/* Icono en la parte superior */
+.solution-item i {
+    font-size: 90px;  /* Icono más grande */
+    color: #c559e0;
+    margin-bottom: 45px; /* Mayor espacio entre icono y texto */
+}
+
+/* Título de la tarjeta */
+.solution-item h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    max-width: 80%;
+}
+
+/* ⚪⚪⚪⚪⚪  Section Five ⚪⚪⚪⚪⚪ */
+.five {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    max-width: 70%;
+    margin-top: 100px;
+    position: relative; /* Necesario para controlar la superposición con el de abajo */
+    z-index: 2; /* Coloca esta sección por encima */
+}
+
+/* Contenedor del título */
+.five-title {    
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+/* Estilo del propio título */
+.five-title h2{
+    font-size: 42px;
+    font-weight: bolder;
+    color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+/* Contenedor de tarjetas */
+.how-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 30px; /* Espacio entre tarjetas */
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+/* Estilo de cada tarjeta */
+.how-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  /* Centra el contenido verticalmente */
+    width: 240px;
+    height: 190px;
+    border: 9px solid;
+    border-image: linear-gradient(90deg, #cf5bda, #4402dd) 1;  /* Gradiente único, el 1 hay que ponerlo para que aplique el gradiente a toooodo el borde */
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    background-color: #fff;
+}
+
+/* Icono con fondo gradiente circular */
+.how-item i {
+    font-size: 50px;
+    color: #fff;
+    background: linear-gradient(90deg, #cf5bda, #4402dd); 
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -55px;  /* Colocar por encima del borde superior */
+    padding: 5px;
+}
+
+/* Estilo del texto dentro de la tarjeta */
+.how-item h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 30px;     /*Espaciado uniforme para centrarlo mejor*/
+}
+
+/* Estilos para resaltar las palabras clave */
+.highlight-one {
+    color: #7d52c4;
+    font-weight: bold;
+}
+
+.highlight-two {
+    color: #b246c0;
+    font-weight: bold;
+}
+
+
+/* ⚪⚪⚪⚪⚪ Section Six ⚪⚪⚪⚪⚪ */
+.six{
+    width: 100%;
+    background-color: red;   
+    margin: -90px auto 0 auto; /* Superpone 20px sobre la sección Five */
+    position: relative; /* Mantiene su posición en el flujo del documento */
+    z-index: 1; /* Coloca esta sección detrás de Five */
+    background: transparent; /* Sin fondo */ 
+}
+
+.six img{
+    width: 100%;
+}
+
+/* ⚪⚪⚪⚪⚪ Section Seven ⚪⚪⚪⚪⚪ */
+.seven {
+    display: flex;
+    align-items: center;    
+    padding: 30px 0;
+    max-width: 90%;
+    justify-content: center;
+    margin: 0 auto;   
+    gap: 100px; 
+}
+
+.seven div{
+    max-width: 40%;
+}
+
+/* Estilo del primer div (lado izquierdo) */
+.seven-left {
+    
+    text-align: left;
+}
+
+/* Estilo del segundo div (lado derecho) */
+.seven-rigth {
+    
+    text-align: left;  /* Alineación del contenido */
+    width: 60%;
+}
+
+/* Ajuste del contenido dentro de cada div */
+.seven-rigth h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: black;
+}
+
+.seven-rigth p {
+    font-size: 18px;    
+    line-height: 1.6;
+    color: black;
+}
+
+
+/* ⚪⚪⚪⚪⚪ Footer ⚪⚪⚪⚪⚪ */
+footer {
+    background: #f2f2f2;  
+    width: 80%;
+    padding: 40px 80px;   
+    display: flex;        /* Alineación horizontal */
+    justify-content: space-between; /* Espaciado entre divs */
+    align-items: center; /* Centrar contenido de los divs */
+    border-top: 2px solid #d3d3d3; /* Línea superior */
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* Estilo del primer div */
+.footer-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    text-align: center;
+}
+
+.footer-1 img {
+    width: 180px;  
+    margin-bottom: 2px; 
+}
+
+.footer-1 p {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+/* Estilo de las listas de links */
+footer ul {
+    list-style: none;  /* para que no estén visibles las viñetas */
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin-bottom: 15px; 
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;  
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #7d52c4;  /* Color al pasar el mouse */
+}
+
+/* Centrar contenido de los divs del footer */
+.footer-2,
+.footer-3,
+.footer-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrado horizontal */
+    text-align: center;
+}
+
+
+
