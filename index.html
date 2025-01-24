@@ -10,26 +10,26 @@
 <body>
     <div class="container">
         <!-- Header -->
-        <header>
+        <header  id="home">
             <div class="logo">
                 <img src="/img/logo.png" alt="Logo The Pulse">
                 <span>The Pulse</span>
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>                                                     <!-- FALTA AGREGAR LAS REFES DE LINKS -->
-                    <li><a href="#">¿Qué resolvemos?</a></li>
-                    <li><a href="#">Solución</a></li>
-                    <li><a href="#">Precios</a></li>
-                    <li><a href="#">Sobre nosotros</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#home">Home</a></li>                                                     
+                    <li><a href="#que-resolvemos">¿Qué resolvemos?</a></li>
+                    <li><a href="#soluciones">Solución</a></li>
+                    <li><a href="pricing.html">Precios</a></li>
+                    <li><a href="about-us.html">Sobre nosotros</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
                 </ul>
             </nav>
             <div class="auth-buttons">
-                <button class="code-button">Participar con código</button>
+                <button class="code-button"><a href="pin">Participar con código</a></button>
                 <div class="login-signup">
-                    <button class="login-text">Log in</button>
-                    <button class="signup-button">Sign up</button>
+                    <button class="login-text"><a href="log-in.html">Log in</a></button>
+                    <button class="signup-button"><a href="sign-up">Sign up</a></button>
                 </div>
             </div>
         </header>
@@ -49,7 +49,7 @@
         </section>
 
         <!--  Sección Two -->
-        <section class="two">
+        <section class="two" id="que-resolvemos">
             <div class="que-resolvemos">
                 <img src="/img/logo.png" alt="Logo Image">
                 <h2>¿Qué resolvemos?</h2>
@@ -88,7 +88,7 @@
         </section>
 
         <!--  Sección Four -->
-        <section class="four">
+        <section class="four" id="soluciones">
             <div class="solutions-title">
                 <h2>¡Solución!</h2>
                 <h3>Con <span class="highlight">The Pulse</span> mejorarás el <br> <span class="highlight-thin">bienestar</span> de tu empresa de esta forma:</h4>
@@ -140,10 +140,9 @@
 
         <!--  Sección Six  -->
         <section class="six">
-            <img src="./img/como-lo-hacemos.png">
+            <img src="./img/como-lo-hacemos.png">                           <!-- ⛔⛔⛔⛔ MEJORAR CALIDAD DEL PNG ⛔⛔⛔⛔ -->
         </section>         
         
-                                                   <!--  ESTO PARECE SER UNA FOTO EN CANVA-->
           
         <!--  Sección Seven -->
         <section class="seven">
@@ -164,18 +163,18 @@
             </div>
             <div class="footer-2">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact</a></li>                                             
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#pricing.html">Pricing</a></li>
+                    <li><a href="#about-us.html">About us</a></li>
+                    <li><a href="#contact.html">Contact</a></li>                                             
                 </ul>
             </div>
             <div class="footer-3">
                 <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                    <li><a href="http://www.x.com" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
                 </ul>
             </div>
             <div class="footer-4">
@@ -185,8 +184,9 @@
                 </ul>
             </div>
         </footer>
-
-        <!-- ⛔⛔⛔⛔⛔⛔FALTA AGREGAR LOS # DE LOS LINKS DEL FOOTER ⛔⛔⛔⛔⛔⛔-->
+        
+        <!-- ⛔⛔⛔⛔⛔⛔ AGREGAR TRANSICIONES PARA CUANDO SE TOCA UN LINK ⛔⛔⛔⛔⛔⛔-->
+        <!-- ⛔⛔⛔⛔⛔⛔ AGREGAR BOTON PARA VOLVER AL TOP ⛔⛔⛔⛔⛔⛔-->
     </div>
 </body>
 </html>

@@ -76,11 +76,21 @@ nav ul li a {
 .code-button {
     padding: 10px 20px;
     border: 1px solid blue;
-    background: none;
+    background-color: #fff;
     color: #000;
     font-weight: bold;
     border-radius: 15px;
     cursor: pointer;
+    position: relative;
+}
+
+/* Botón de código: eliminar el estilo predeterminado del enlace */
+.code-button a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    display: block; 
 }
 
 /* Botones de login y signup */
@@ -89,6 +99,7 @@ nav ul li a {
     justify-content: center;
     gap: 10px;
     width: 100%;
+    cursor: pointer;
 }
 
 .login-text {
@@ -96,6 +107,18 @@ nav ul li a {
     font-size: 14px;
     font-weight: bold;
     border:none;
+    background: none;
+    cursor: pointer;
+}
+
+
+/* Eliminar estilos predeterminados de <a> dentro del botón login */
+.login-text a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    display: block;
 }
 
 .signup-button {
@@ -106,6 +129,15 @@ nav ul li a {
     border-radius: 10px;
     cursor: pointer;
     font-weight: bold;
+}
+
+/* Eliminar estilos predeterminados de <a> dentro del botón signup */
+.signup-button a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    display: block;
 }
 
 /*⚪⚪⚪⚪⚪  Section One ⚪⚪⚪⚪⚪ */
